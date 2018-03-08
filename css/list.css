@@ -1,0 +1,149 @@
+@import "base.css";
+
+
+@font-face {
+    font-family: 'iconfont';  /* project id 570412 */
+    src: url('http://at.alicdn.com/t/font_570412_y32h6qwl9ezmpldi.eot');
+    src: url('http://at.alicdn.com/t/font_570412_y32h6qwl9ezmpldi.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_570412_y32h6qwl9ezmpldi.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_570412_y32h6qwl9ezmpldi.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_570412_y32h6qwl9ezmpldi.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+i{
+    font-style: normal;
+
+}
+body{
+    background: #faf8ec;
+}
+.header{
+    width: 100%;
+    height:1.49rem ;
+    background:#4dbecc ;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.heank{
+    width: 9.89rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.heank a{
+    display: block;
+    color: #fff;
+    line-height: 1.49rem;
+
+}
+.heank p{
+    font-size: 0.5rem;
+    color: #fff;
+    line-height: 1.49rem;
+}
+.icon2{
+    font-size: 0.22rem;
+    color: #fff;
+    line-height: 1.49rem;
+}
+.lists{
+    width: 100%;
+    height: 1.2rem;
+    background: #fff;
+    margin-top: 1.5rem;
+
+
+}
+.listnk{
+    width: 10rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.listnk li{
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 0.28rem;
+    color: #d5d5d5;
+}
+.listnk li:first-child{
+    background: #49bdca;
+    width: 1.97rem;
+    height: 0.79rem;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 0.2rem;
+    line-height: 0.79rem;
+}
+.setion{
+    width: 100%;
+    height: auto;
+    margin-top: 0.3rem;
+}
+.secnk{
+    width: 9.77rem;
+    height: auto;
+    margin: 0 auto;
+}
+.secnk li{
+    width: 100%;
+    height: 3.8rem;
+    background: #fff;
+    margin-bottom: 0.3rem;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+.secl{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+    margin-right: 0.4rem;
+}
+.secl img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.secr{
+    width: 4.74rem;
+    height: 3rem;
+    margin-top: 0.4rem;
+    color: #c8c8c8;
+    font-size: 0.23rem;
+}
+.secr h2{
+    font-size: 0.48rem;
+    color: #5c5c5c;
+    margin-bottom: 0.1rem;
+}
+.secr img{
+    width: 2.58rem;
+    height: 0.41rem;
+}
+.secr p{
+    font-size: 0.2rem;
+    color: #7d7d7d;
+    margin-bottom: 0.6rem;
+}
+.secr span{
+    font-size: 0.25rem;
+    color: #989898;
+}
+.tj{
+    display: block;
+    width: 0.87rem;
+    height: 0.87rem;
+    position: absolute;
+    right: 0.5rem;
+}

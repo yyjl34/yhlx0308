@@ -1,0 +1,84 @@
+@import "base.css";
+
+.header{
+    width: 100%;
+    height: 1.47rem;
+    background: #4dbecc;
+    overflow: hidden;
+}
+body{
+    background: #faf8ec;
+}
+.henk{
+    width: 10rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.heinput{
+    width: 8.58rem;
+    height: 1.06rem;
+    background: #2e9ea9;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 0.37rem;
+    text-align: center;
+    line-height: 1.06rem;
+    margin-top: 0.2rem;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {/* WebKit browsers */
+    color:#fff;
+}
+.henk a{
+    display: block;
+    margin-top: 0.4rem;
+    font-size:0.42rem ;
+    color: #fff;
+}
+.section{
+    width: 100%;
+    height: 6rem;
+
+}
+.senk{
+    width: 9.75rem;
+    height: 4.46rem;
+    margin: 0 auto;
+    padding-top: 1.54rem;
+    text-align: center;
+}
+.senk h3{
+    font-size: 0.37rem;
+    color: #58554c;
+    margin-bottom: 0.7rem;
+}
+.mdd{
+    width: 100%;
+    height: 0.8rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+    background: #faf8ec;;
+}
+.mdd li{
+    width: 2.25rem;
+    height: 100%;
+    text-align: center;
+    line-height:0.8rem ;
+    border-radius: 15px;
+    border: 0.03rem solid #d7d5c9;
+    font-size: 0.2rem;
+    color:#d7d5c9 ;
+}
+.mdd li:hover{
+    background: #2e9ea9;
+    color: #fff;
+}
+.mdd li a{
+    font-size: 0.2rem;
+    color:#d7d5c9 ;
+}

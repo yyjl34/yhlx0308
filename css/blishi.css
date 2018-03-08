@@ -1,0 +1,276 @@
+@import "base.css";
+
+
+@font-face {
+    font-family: 'iconfont';  /* project id 573687 */
+    src: url('http://at.alicdn.com/t/font_573687_zdo5pm6s376wdn29.eot');
+    src: url('http://at.alicdn.com/t/font_573687_zdo5pm6s376wdn29.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_573687_zdo5pm6s376wdn29.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_573687_zdo5pm6s376wdn29.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_573687_zdo5pm6s376wdn29.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+i{
+    font-style: normal;
+
+}
+body{
+    background: #faf8ec;
+}
+
+
+.header{
+    width: 100%;
+    height: 1.67rem;
+    border-bottom: 0.01rem solid #a6a285;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: #faf8ec;
+}
+.heank{
+    width: 10.17rem;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.icon1{
+    font-size: 0.3rem;
+    color: #cab894;
+    line-height: 1.67rem;
+    float: left;
+}
+.heright{
+    width: 4rem;
+    height: 100%;
+    float: right;
+}
+.icon2{
+    font-size: 0.5rem;
+    color: #cab894;
+    line-height: 1.67rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-right: 0.5rem;
+}
+.heright .icon2:last-child{
+    margin: 0;
+}
+.sectop{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.sectx{
+    width: 2.3rem;
+    height: 2.84rem;
+    margin: 0.4rem auto;
+    text-align: center;
+}
+.sectx img{
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 0.1rem;
+}
+.sectx span{
+    color: #999991;
+    font-size: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+.bls h1{
+    color: #5c5b57;
+    font-size: 0.47rem;
+    margin-top: 0.5rem;
+}
+.bls{
+    width: 9.63rem;
+    height: 1.3rem;
+    border-bottom: 0.01rem solid #a6a285;
+    margin: 0.4rem auto 0;
+}
+.dates{
+    width: 100%;
+    height: 1rem;
+    margin-top: 0.3rem;
+}
+.datenk{
+    width: 7.64rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+.datelist{
+    width: 2.5rem;
+    height: 100%;
+    border-right: 0.01rem solid #cdcac3;
+}
+.datenk .datelist:last-child{
+    border: none;
+}
+.datelist p{
+    font-size: 0.23rem;
+    color: #585755;
+}
+.datelist span{
+    color: #989792;
+    font-size: 0.2rem;
+    text-align: center;
+}
+.lxxc{
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+}
+.lxnk{
+    width: 9.87rem;
+    height: 100%;
+    margin: 0 auto;
+    border-top: 0.13rem solid #4cbdcd;
+    box-sizing: border-box;
+    background: #fff;
+    overflow: hidden;
+}
+.lxjd{
+    width: 9.29rem;
+    height:3rem;
+    margin: 0.4rem auto 0;
+}
+.lxjd li{
+    width: 3.44rem;
+    height: 1.2rem;
+    float: left;
+    margin: 0.2rem 0.4rem;
+}
+.lxjd li img{
+    display:inline-block;
+    width: 0.86rem;
+    height: 0.86rem;
+    margin: 0.15rem 0.2rem;
+    float: left;
+}
+.lxjd li span{
+    font-size: 0.38rem;
+    color: #585858;
+    line-height: 1.2rem;
+}
+.guoqi{
+    width: 9.29rem;
+    height: 0.9rem;
+    margin: 0.2rem auto 0;
+    display: flex;
+}
+.guoqi img{
+    display: block;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 0.3rem;
+}
+.guoqi p{
+    color: #5c5c5c;
+    font-size: 0.26rem;
+    line-height: 0.9rem;
+}
+.chakan{
+    width: 100%;
+    height: 0.65rem;
+    background: #f2f2f2;
+    border-bottom: 0.1rem solid #c9c9c7;
+    box-sizing: border-box;
+    margin-top: 0.4rem;
+    text-align: center;
+    color: #969696;
+    font-size: 0.34rem;
+}
+.lxdyt{
+    width: 100%;
+    height: auto;
+    margin-top: 0.4rem;
+}
+.lxdytnk{
+    width: 10.3rem;
+    height: auto;
+    margin: 0 auto;
+}
+.txtop{
+    width: 100%;
+    height: 1.1rem;
+}
+.txtop img{
+    display: block;
+    width: 0.76rem;
+    height: 100%;
+    float: left;
+    margin-right: 0.3rem;
+
+}
+.txtop p{
+    font-size: 0.27rem;
+    color: #af9062;
+
+}
+.lximg{
+    width: 100%;
+    height: 6.7rem;
+    position: relative;
+}
+.lximg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.xhxi{
+    width: 2.33rem;
+    height: 0.8rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+
+}
+.xh{
+    width: 1.16rem;
+    height: 100%;
+    background: #2c1203;
+    margin-right: 0.02rem;
+    color: #fff;
+    font-size: 0.25rem;
+    line-height:0.8rem ;
+}
+.icon3{
+    font-size: 0.4rem;
+    color: #fff;
+    margin: 0.2rem 0.15rem;
+}
+.lxdl{
+    width: 10rem;
+    height: auto;
+    background: #fff;
+    border-bottom: 0.09rem solid #e7e7e7;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    padding: 0 0.2rem;
+}
+.lxdl p{
+    font-size: 0.35rem;
+    color: #5e5e5e;
+    line-height: 0.8rem;
+}
+.lxshi{
+    font-size: 0.24rem;
+    color: #b1b1b1;
+    margin: 0.2rem 0;
+    line-height: 0.4rem;
+}
+.icon4{
+    font-size: 0.4rem;
+    color: #999999;
+    margin-right: 0.5rem;
+    float: left;
+}

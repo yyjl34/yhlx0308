@@ -1,0 +1,149 @@
+@import "base.css";
+
+
+@font-face {
+    font-family: 'iconfont';  /* project id 573437 */
+    src: url('http://at.alicdn.com/t/font_573437_fxt6lkwawv29be29.eot');
+    src: url('http://at.alicdn.com/t/font_573437_fxt6lkwawv29be29.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_573437_fxt6lkwawv29be29.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_573437_fxt6lkwawv29be29.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_573437_fxt6lkwawv29be29.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+i{
+    font-style: normal;
+
+}
+.header{
+    width: 100%;
+    height: 1.5rem;
+    background: #4abdcc;
+}
+.header a{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    float: right;
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+.wo{
+    width: 100%;
+    height: 8rem;
+    position: relative;
+}
+.wo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.zhe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0,0,0.4);
+    overflow: hidden;
+}
+.pro{
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.pro .wrap{
+    width: 100%;
+    height: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+.wrapnk{
+    width: 4.5rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.wrapnk .linkes{
+    width:1rem;
+    color: #eee;
+    font-size: 0.15rem;
+    margin-top: 0.6rem;
+}
+.wrapnk .tx{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+}
+.wrapnk .tx img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.pro h2{
+    color: #fff;
+    font-size: 0.5rem;
+    margin-bottom:1rem;
+}
+.btns{
+    width: 2rem;
+    height: 0.8rem;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 15px;
+    color: #7b7064;
+    font-size: 0.45rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+body{
+    background: #fbf7ed;
+}
+.level{
+    display: block;
+    width: 1.6rem;
+    height: 1rem;
+    background: #40423d;
+    position: absolute;
+    right: 0;
+    top: 0.4rem;
+    line-height: 1rem;
+    color: #ddd;
+    text-align: center;
+    font-size: 0.5rem;
+}
+.gushi{
+    width: 100%;
+    height: 1rem;
+    margin-top: 0.5rem;
+}
+.gsnk{
+    width: 10rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.gsnk h1{
+    color: #6a6060;
+    font-size: 0.4rem;
+    line-height: 1rem;
+}
+.ling{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #e8dfc5;
+    color: #fff;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 10px;
+    font-size: 0.4rem;
+    margin-top: 0.2rem;
+}
